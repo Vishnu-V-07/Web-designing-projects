@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+ <header>   
+<h1 id="title">Student Form</h1>
+<link rel="stylesheet" href="Form.css">
+ </header>
+ <body>
+<p id="description">Fill details completely</p>
+<form id="survey-form">
+  <div class="input-headings">
+  <label for="name" id="name-label">Name</label>
+  <input type="text" id="name" placeholder="Vishnu" class="form-input" required></input>
+  <br>
+   <label for="email" id="email-label">E-mail</label>
+<input type="email" id="email" placeholder="aaa@gmail.com"  class="form-input" required></input>
+<br>
+   <label for="number" id="number-label">Age</label>
+<input type="number" id="number" placeholder="18" min="18" max="60"  class="form-input" required></input>
+<br>
+<label for="dropdown" id="year">year</label>
+<select id="dropdown"  class="form-input">
+  <option value="I Year">I year</option>
+  <option value="II Year">II year</option>
+  <option value="III Year">III year</option>
+  <option value="IV Year">IV year</option>
+</select>
+<br>
+<br>
+ <label for="gender" id="gender">Gender:</label>
+<br>
+<input type="radio" id="gender" name="gender" value="Male" ></input>
+<label for="gender" id="gender">Male</label><br>
+<input type="radio" id="gender" name="gender" value="Female" ></input>
+<label for="gender" id="gender">Female</label><br>
+<input type="radio" id="gender" name="gender" value="Others" ></input>
+<label for="gender" id="gender">Others</label>
+<br>
+<br>
+<label for="department" id="department">Department</label><br>
+<input type="checkbox" id="checkbox" name="department" value="CSE">
+<label for="checkbox" >CSE</label><br>
+<input type="checkbox" id="checkbox" name="department" value="ECE">
+<label for="checkbox" >ECE</label><br>
+<input type="checkbox" id="checkbox" name="department" value="IT">
+<label for="checkbox" >IT</label><br>
+<br>
+<br>
+<label id="textarea" >Additional Comments</label><br>
+<textarea id="textarea" name="instructions" rows="5" cols="40"></textarea>
+<br>
+<input type="submit" id="submit" value="Submit" class="Submit"></input>
+</div>
+</form>
+</body>
+</html>
