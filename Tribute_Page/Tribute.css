@@ -1,0 +1,14 @@
+#img-caption{
+    width:400px;
+     margin:auto;
+  }
+  #image{
+    max-width:100%;
+    height:auto;
+    margin:auto;
+    display:block;
+  }
+  body{
+    background-color:skyblue;
+    font-family:calibri;
+  }
